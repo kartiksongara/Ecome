@@ -1,0 +1,25 @@
+.singin{
+    height: 38.5rem;
+    width: 83rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704931200&semt=ais")
+    
+
+}
+.profile{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/011/847/small/paper-cut-luxury-gold-background-with-metal-texture-3d-abstract-for-gift-card-poster-on-wall-poster-template-landing-page-ui-ux-cover-book-banner-free-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 630px;
+    padding-top: 30px;
+    
+}
+@media(max-width:800px) and (min-width:350px){
+    .singin{
+        height: 1200px;
+    
+
+    }
+}

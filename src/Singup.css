@@ -1,0 +1,64 @@
+.main{
+    height: 50rem;
+    width: 83rem;
+    justify-content: center;
+    font-family: sans;
+}
+.box{
+    width: 50rem;
+    border: 1px solid black;
+ height: 600px; 
+ justify-content: center; 
+ background-image: url("https://www.shutterstock.com/shutterstock/photos/1745914352/display_1500/stock-photo-buffet-table-scene-of-take-out-or-delivery-foods-pizza-hamburgers-fried-chicken-and-sides-above-1745914352.jpg"); 
+}
+.contant{
+    margin-right: 20px;
+}
+.label{
+    font-size: 1.5rem;
+    /* width: 5rem; */
+    color: black;
+    
+}
+.input{
+    height: 2rem;
+    width: 15rem;
+}
+.button{
+    color: white;
+    width: 5rem;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+}
+ @media (max-width:800px) and (min-width:350px){
+    .main{
+        height: 100rem;
+    }
+    .box{
+        width: 80%;
+        height: 60rem;
+        background-repeat: no-repeat;
+    }
+    .label{
+        font-size: 40px;
+        width: 50rem;
+        color:white;
+    }
+    .input{
+        height: 3rem;
+        width: 20rem;
+    }
+    .button{
+        width: 10rem;
+        height: 3rem;
+        font-size: 2rem;
+
+    }
+    .span{
+        font-size: 2rem;
+        
+    }
+
+
+ }
