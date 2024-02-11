@@ -59,9 +59,9 @@ const Data = [
       "id": 8,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_Oyt5T351gwniwm0GILiIdl3m5sUqVJrBA&usqp=CAU",
       "name": "HP Photosmart Wireless e-All-In-One (B110)",
-      "price": 199.99,
+      "price": 2000,
       "discount": "Flat 10% Discount.",
-      "discountprice": ""
+      "discountprice": 1800
     },
     {
       "id": 9,

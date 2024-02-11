@@ -9,10 +9,12 @@
     border: 1px solid black;
  height: 600px; 
  justify-content: center; 
- background-image: url("https://www.shutterstock.com/shutterstock/photos/1745914352/display_1500/stock-photo-buffet-table-scene-of-take-out-or-delivery-foods-pizza-hamburgers-fried-chicken-and-sides-above-1745914352.jpg"); 
+ background-image: url("https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?cs=srgb&dl=pexels-pixabay-356056.jpg&fm=jpg"); 
+ background-size: cover;
 }
 .contant{
     margin-right: 20px;
+    margin-top: -20px;
 }
 .label{
     font-size: 1.5rem;

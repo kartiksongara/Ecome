@@ -28,7 +28,7 @@ function Electronics({stateup,setstateup}) {
             quantity:1
         }
         let index=gethomedata.some((e)=>e.item.id === item.id)
-        console.log(index)
+        // console.log(index)
         if(loginuser){
         if(!index){
             let localdata=[...cartdata].concat(product)
@@ -121,9 +121,9 @@ function Electronics({stateup,setstateup}) {
                     <div className='down'>
                         <Link className='text'>Filter &#160; &#8744;</Link>
                         <div className='filterin'>
-                        <div className='check'><input type="checkbox"  onClick={click5000}/><label htmlFor="">&lt; 5000</label></div>
-                        <div className='check'><input type="checkbox" onClick={click5to15k} /><label htmlFor="">5000 &lt; 15000</label></div>
-                        <div className='check'><input type="checkbox" onClick={click15k} /><label htmlFor="">5000 &lt;</label></div>
+                        <div className='check'><input type="checkbox"  onClick={click5000}/><label htmlFor="">Below 5000</label></div>
+                        <div className='check'><input type="checkbox" onClick={click5to15k} /><label htmlFor="">5000 Between 15000</label></div>
+                        <div className='check'><input type="checkbox" onClick={click15k} /><label htmlFor="">Above15000</label></div>
                         </div>
                     </div>
                 </div>

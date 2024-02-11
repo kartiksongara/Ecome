@@ -3,7 +3,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import { useNavigate } from 'react-router'
 import { Link } from 'react-router-dom';
 import { FaRegUserCircle } from "react-icons/fa";
-import "./Navebar.css"
+// import "./Navebar.css"
 const Navebar = ({ setemail, stateup }) => {
   const navigate = useNavigate();
   const [getcarddata, setgetcarddata] = useState([])
